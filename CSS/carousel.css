@@ -1,5 +1,5 @@
 .carousel {
-    max-width: 800px;
+    max-width: 70%;
 }
 
 .carousel-control-prev-icon,
@@ -28,6 +28,6 @@
 
 .carousel-inner img {
     margin: auto;
-    width: 45%;
-    height: 45%;
+    width: 40%;
+    height: auto;
 }

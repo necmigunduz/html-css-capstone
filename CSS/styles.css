@@ -12,7 +12,6 @@
 
 #brand-name {
     text-decoration: none;
-    font-family: Helvetica-neue;
     font-size: 30px;
     font-weight: 900;
 }
@@ -41,4 +40,14 @@ ul > li {
 
 .m-left {
     margin-left: 30%;
+}
+
+article {
+    height: 500px;
+    background: url('/images/article-background.jpg');
+    opacity: 0.4;
+}
+
+footer {
+    height: 200px;
 }
