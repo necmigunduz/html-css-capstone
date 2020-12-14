@@ -1,0 +1,33 @@
+.carousel {
+    max-width: 800px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    height: 40px;
+    width: 40px;
+    outline: black;
+    background-size: 100%, 100%;
+    border: 1px solid gray;
+    border-radius: 50%;
+    background-image: none;
+    line-height: 38px;
+}
+
+.carousel-control-next-icon:after {
+    content: '>';
+    font-size: 35px;
+    color: gray;
+}
+
+.carousel-control-prev-icon:after {
+    content: '<';
+    font-size: 35px;
+    color: gray;
+}
+
+.carousel-inner img {
+    margin: auto;
+    width: 45%;
+    height: 45%;
+}

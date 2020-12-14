@@ -1,20 +1,171 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-    <!-- Font Awesome Link-->
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+
+    <!-- Link to CSS -->
+    <link rel="stylesheet" href="CSS/styles.css" />
+    <link rel="stylesheet" href="CSS/colors.css" />
+    <link rel="stylesheet" href="CSS/fonts.css" />
+    <link rel="stylesheet" href="CSS/carousel.css" />
     <title>Capstone Project</title>
   </head>
   <body>
-    
-   
+    <header>
+      <div class="header w-100 p-0 m-0">
+        <div>
+          <nav>
+            <div
+              class="d-flex py-2 justify-content-evenly align-items-center w-100 bg-383838 nav-top"
+            >
+              <div>
+                <img src="/images/logo.png" alt="logo" class="logo ml-auto" />
+                <a
+                  href="#"
+                  class="text-uppercase text-decoration-none text-white helvetica px-3"
+                  id="brand-name"
+                  >Zattix</a
+                >
+              </div>
+              <a class="text-d35266 px-2"
+                ><i class="fas fa-home text-d35266 mx-1"></i>HOME</a
+              >
+              <a class="text-888888 px-2 text-uppercase"
+                ><i class="fab fa-pied-piper-square mx-1"></i>COLLECTIONs</a
+              >
+              <a class="text-888888 px-2"
+                ><i class="fas fa-shopping-cart mx-1"></i>PURCHASE LIST</a
+              >
+              <button class="text-uppercase px-2 py-2 bg-d35266" id="btn-ads">
+                post an ad
+              </button>
+            </div>
+          </nav>
+        </div>
+        <div
+          class="d-flex-column text-center helvetica text-white w-100 h-100 bg-d35266 nav-sec py-5"
+        >
+          <div>
+            <h1
+              class="title text-uppercase gotham-bold f-w-bolder top-head fs-sixty"
+            >
+              zattix
+            </h1>
+            <p>Buying And Selling Couldn't be Simpler than this!</p>
+          </div>
+          <div>
+            <form class="d-flex mx-auto w-75 justify-content-evenly">
+              <div class="btn-group departs">
+                <button
+                  type="button"
+                  class="btn btn-light dropdown-toggle"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  All Departments
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Electronics</a></li>
+                  <li><a class="dropdown-item" href="#">Cars</a></li>
+                  <li><a class="dropdown-item" href="#">Home Appliances</a></li>
+                </ul>
+              </div>
+              <div class="input-group px-1">
+                <input
+                  type="text"
+                  class="form-control"
+                  aria-label="Default"
+                  aria-describedby="inputGroup-sizing-default"
+                  placeholder="What do you search for?"
+                />
+              </div>
+              <div class="input-group px-0">
+                <input
+                  type="text"
+                  class="form-control"
+                  aria-label="Default"
+                  aria-describedby="inputGroup-sizing-default"
+                />
+              </div>
+              <button
+                type="button"
+                class="btn bg-383838 helvetica px-18 text-888888 btn-lg mx-2 py-0 px-2"
+              >
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <div class="carousel-container my-5">
+        
+        <div
+          id="carouselExampleControls"
+          class="carousel mx-auto slide"
+          data-bs-ride="carousel"
+        >
+        <h2 class="fs-eighteen text-secondary m-left">Hot Ads</h2>
+      
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="/images/laptop.jpg" class="d-block h-50" alt="laptop" />
+            </div>
+            <div class="carousel-item">
+              <img src="/images/phone.jpg" class="d-block h-50" alt="phone" />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="/images/television.jpeg"
+                class="d-block h-50"
+                alt="phone"
+              />
+            </div>
+          </div>
+          <a
+            class="carousel-control-prev"
+            href="#carouselExampleControls"
+            role="button"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </a>
+          <a
+            class="carousel-control-next"
+            href="#carouselExampleControls"
+            role="button"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </a>
+        
+        </div>
+      </div>
+    </main>
     <!-- Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Font Awesome Link-->
+    <script
+      src="https://kit.fontawesome.com/6fd18ab1cb.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

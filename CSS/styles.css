@@ -1,0 +1,44 @@
+/* Navbar */
+
+.nav-top {
+    width: 100%;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+    border-radius: 25%;
+}   
+
+#brand-name {
+    text-decoration: none;
+    font-family: Helvetica-neue;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+#btn-ads {
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+ul > li {
+    min-width: 80px;
+}
+
+/* No Bullets */ 
+ul > li {
+    list-style-type: none;
+}
+
+/* Positioning */
+
+.m-left {
+    margin-left: 30%;
+}
