@@ -1,5 +1,9 @@
-.carousel {
+.carousel-1 {
     max-width: 70%;
+}
+
+.carousel-2 {
+    max-width: 100%;
 }
 
 .carousel-control-prev-icon,

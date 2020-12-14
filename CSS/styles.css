@@ -39,15 +39,21 @@ ul > li {
 /* Positioning */
 
 .m-left {
-    margin-left: 30%;
+    margin-left: 10%;
 }
 
 article {
-    height: 500px;
+    height: 400px;
     background: url('/images/article-background.jpg');
-    opacity: 0.4;
+    opacity: 1;
 }
 
 footer {
     height: 200px;
+}
+
+.w-art {
+    width: 20%;
+    margin: 0 10px;
+    padding: 0 10px;
 }
