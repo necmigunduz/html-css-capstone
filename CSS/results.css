@@ -1,6 +1,6 @@
-.accordion-container {
-    height: 1200px;
-    background-color: lightgray;
+.side-container {
+    width: 500px;
+    background-color:#d3526546;
 }
 
 .mid-part {
@@ -13,4 +13,16 @@
     font-family: 'Helvetica-bold';
     text-align: end;
     border-bottom: 1px solid lightgray;
+}
+
+.search-btn {
+    border-radius: 8%;
+    width: 120px;
+    margin-left: 100px;
+    color: white;
+    background-color: #383838;
+}
+
+.border-b {
+    border-bottom: 2px solid gray;
 }

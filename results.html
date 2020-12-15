@@ -124,154 +124,152 @@
       </div>
     </header>
     <main class="main">
-        
-        <div class="col-12 row">
-            <div class="accordion-container col-3 bg-383838">
+        <div class="d-flex">
+            <div class="side-container d-none flex-md-column flex-lg-column flex-xl-column mt-3 mx-2  d-md-flex d-lg-flex d-xl-flex">
+                <h2 class="gothic-bold  fs-twenty text-d35266 mx-5 mt-5 s-opts border-b">Advanced Search Options</h2>
                 <form>
-                    <h2 class="px-4 pt-3 fs-twenty gotham-bold text-d35266">Advanced Search</h2>
-                    <div id="accordion">
-                        <div class="card">
-                        <div class="card-header" id="headingOne">
-                            <h5 class="mb-0">
-                            <button class="btn btn-link text-decoration-none text-888888" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                Condition
-                            </button>
-                            </h5>
-                        </div>
-                    
-                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
-                            <div class="card-body">
-                            <div class="px-5 text-d35266">
-                                <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                                    <label class="form-check-label" for="inlineCheckbox1">New</label>
-                                </div>
-                                <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                                    <label class="form-check-label" for="inlineCheckbox2">Used</label>
-                                </div>
-                                </div>
-                            </div>
-                        </div>
-                        </div>
-                        <div class="card">
-                        <div class="card-header" id="headingTwo">
-                            <h5 class="mb-0">
-                            <button class="btn btn-link collapsed text-decoration-none text-888888" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                Product Type
-                            </button>
-                            </h5>
-                        </div>
-                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-                            <div class="card-body">
-                                <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                                    <label class="form-check-label" for="inlineCheckbox1">Computers</label>
-                                </div>
-                                <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                                    <label class="form-check-label" for="inlineCheckbox2">Home Aplliances</label>
-                                </div>
-                                <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                                    <label class="form-check-label" for="inlineCheckbox2">Smart Phones</label>
-                                </div>
-                                <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                                    <label class="form-check-label" for="inlineCheckbox2">Other</label>
-                                </div>
-                            </div>
-                        </div>
-                        </div>
-                        <div class="card">
-                        <div class="card-header" id="headingThree">
-                            <h5 class="mb-0">
-                            <button class="btn btn-link collapsed text-decoration-none text-888888" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                Price Range
-                            </button>
-                            </h5>
-                        </div>
-                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-                            <div class="card-body">
-                                <div class="dropdown">
-                                    <button class="btn text-white bg-secondary dropdown-toggle w-75 border" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                      Select Price Range
-                                    </button>
-                                    <div class="dropdown-menu gotham-bold w-75" aria-labelledby="dropdownMenuButton">
-                                      <a class="dropdown-item dropdown-a" href="#">0 - $500</a>
-                                      <a class="dropdown-item dropdown-a" href="#">$501 - $1000</a>
-                                      <a class="dropdown-item dropdown-a" href="#">$1001 - $1500</a>
-                                      <a class="dropdown-item dropdown-a" href="#">$1501 - $2000</a>
-                                      <a class="dropdown-item dropdown-a" href="#">$2001 - $2500</a>
-                                      <a class="dropdown-item dropdown-a" href="#">$2501 - $3000</a>
-                                      <a class="dropdown-item dropdown-a" href="#">$3001 - $3500</a>
-                                      <a class="dropdown-item dropdown-a" href="#">$3501 - $4000</a>
-                                      <a class="dropdown-item dropdown-a" href="#"> > $4001</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
+                  <h2 class="gothic-bold  fs-twenty text-888888 mx-5 mt-2">Condition of Product</h2>
+                  <div class="mx-3 px-5">
+                    <input type="checkbox" id="new" name="new" value="New">
+                    <label for="new">New</label><br>
+                    <input type="checkbox" id="used" name="used" value="used">
+                    <label for="used">Used</label><br>
+                  </div>
+                  <h2 class="gothic-bold  fs-twenty text-888888 mx-5 mt-5">Product Type</h2>
+                  <div class="mx-3 px-5">
+                    <input type="checkbox" id="new" name="new" value="New">
+                    <label for="new">Smart Phones</label><br>
+                    <input type="checkbox" id="used" name="used" value="used">
+                    <label for="used">Computers</label><br>
+                    <input type="checkbox" id="new" name="new" value="New">
+                    <label for="new">Televisions</label><br>
+                    <input type="checkbox" id="new" name="new" value="New">
+                    <label for="new">Other</label><br>
+                    <input type="text" name="other" id="other" placeholder="Enter here">
+                  </div>
+                  <h2 class="gothic-bold  fs-twenty text-888888 mx-5 mt-5">Brand</h2>
+                  <div class="mx-3 px-5">
+                    <input type="checkbox" id="new" name="new" value="New">
+                    <label for="new">Samsung</label><br>
+                    <input type="checkbox" id="used" name="used" value="used">
+                    <label for="used">LG</label><br>
+                    <input type="checkbox" id="new" name="new" value="New">
+                    <label for="new">Lenovo</label><br>
+                    <input type="checkbox" id="new" name="new" value="New">
+                    <label for="new">Other</label><br>
+                    <input type="text" name="other" id="other" placeholder="Enter here">
+                  </div>
+                  <h2 class="gothic-bold  fs-twenty text-888888 mx-5 mt-5">Price Range</h2>
+                  <div class="mx-3 px-5">
+                    <input type="checkbox" id="new" name="new" value="New">
+                    <label for="new">0 - $500</label><br>
+                    <input type="checkbox" id="used" name="used" value="used">
+                    <label for="used">$501 - $1000</label><br>
+                    <input type="checkbox" id="new" name="new" value="New">
+                    <label for="new">$1001 - $1500</label><br>
+                    <input type="checkbox" id="new" name="new" value="New">
+                    <label for="new">$1501 - $2000</label><br>
+                    <input type="checkbox" id="new" name="new" value="New">
+                    <label for="new">$2001 - $2500</label><br>
+                    <input type="checkbox" id="new" name="new" value="New">
+                    <label for="new">$2501 - $3000</label><br>
+                    <input type="checkbox" id="new" name="new" value="New">
+                    <label for="new">> $3001</label><br>
+                  </div>
+                  <button type="submit" class="search-btn gothic-bold  fs-twenty text-888888 mt-3">Search</button>
                 </form>
-            </div>
+              </div>
+              
+            <div class="d-flex-column">
+                <h2 class="gotham-bold fs-twenty text-d35266 mx-5 my-3">Search Results</h2>
+                <div class="d-flex border bg-light w-75 mx-5 my-3 px-2 py-1">
+                    
+                    <div class="d-flex-column justify-content-start mx-2">
+                      <div>
+                        <img src="/images/laptop3.jpg" alt="laptop" class="my-1 border">
+                      </div>
+                      <div class="d-flex justify-content-start mx-5 my-0">
+                        <button type="button" class="btn btn-secondary bg-d35266 mx-1 my-1 px-1 mb-2 fs-thirteen">$1200</button>
+                        <button type="button" class="btn btn-secondary bg-d35266 mx-1 my-1 px-1 mb-2  fs-thirteen">Purchase</button>
+                      </div>
+                    </div>
+                    <div class="d-flex-column w-50 mx-1 my-1">
+                        <h2 class="fs-thirteen gotham-bold ml-1 font-weight-bold border-bottom">LG Laptop xx-2</h2>
+                        <p class="px-3 border-bottom fs-thirteen helvetica-light"><strong>Technical Properties:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. <br> <strong>Payment Options</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                    </div>
 
-            <div class="mid-part col-9">
-                <h2 class="gotham-bold fs-twenty text-d35266 my-3 mx-5 border-bottom">Search Results</h2>
-                <div class="d-flex border bg-light w-100 my-3">
-                    <img src="/images/laptop3.jpg" alt="">
-                    <div class="d-flex-column">
-                        <h2 class="fs-thirteen w-75 gotham-bold mx-2 py-4 px-5 ml-5 font-weight-bold border-bottom">LG Laptop xx-2-xx-av-2</h2>
-                        <p class="px-3 border-bottom w-75 mx-2"><strong>Technical Properties:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br><br> <strong>Payment Options</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                        <div class="d-flex justify-content-start">
-                            <button type="button" class="btn btn-secondary bg-d35266 mx-2 px-5 mb-2 fs-twenty">$1200</button>
-                            <button type="button" class="btn btn-secondary bg-d35266 mx-2 px-5 mb-2  fs-twenty">Purchase</button>
-                        </div>
-                    </div>
                 </div>
-                <div class="d-flex border bg-light w-100 my-3">
-                    <img src="/images/laptop3.jpg" alt="">
-                    <div class="d-flex-column">
-                        <h2 class="fs-thirteen w-75 gotham-bold mx-2 py-4 px-5 ml-5 font-weight-bold border-bottom">LG Laptop xx-2-xx-av-2</h2>
-                        <p class="px-3 border-bottom w-75 mx-2"><strong>Technical Properties:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br><br> <strong>Payment Options</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                        <div class="d-flex justify-content-start">
-                            <button type="button" class="btn btn-secondary bg-d35266 mx-2 px-5 mb-2 fs-twenty">$1200</button>
-                            <button type="button" class="btn btn-secondary bg-d35266 mx-2 px-5 mb-2  fs-twenty">Purchase</button>
-                        </div>
+                <div class="d-flex border bg-light w-75 mx-5 my-3 px-2 py-1">
+                    
+                  <div class="d-flex-column justify-content-start mx-2">
+                    <div>
+                      <img src="/images/laptop3.jpg" alt="laptop" class="my-1 border">
                     </div>
+                    <div class="d-flex justify-content-start mx-5 my-0">
+                      <button type="button" class="btn btn-secondary bg-d35266 mx-1 my-1 px-1 mb-2 fs-thirteen">$1200</button>
+                      <button type="button" class="btn btn-secondary bg-d35266 mx-1 my-1 px-1 mb-2  fs-thirteen">Purchase</button>
+                    </div>
+                  </div>
+                  <div class="d-flex-column w-50 mx-1 my-1">
+                      <h2 class="fs-thirteen gotham-bold ml-1 font-weight-bold border-bottom">LG Laptop xx-2</h2>
+                      <p class="px-3 border-bottom fs-thirteen helvetica-light"><strong>Technical Properties:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. <br> <strong>Payment Options</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                  </div>
+                  
+
                 </div>
-                <div class="d-flex border bg-light w-100 my-3">
-                    <img src="/images/laptop3.jpg" alt="">
-                    <div class="d-flex-column">
-                        <h2 class="fs-thirteen w-75 gotham-bold mx-2 py-4 px-5 ml-5 font-weight-bold border-bottom">LG Laptop xx-2-xx-av-2</h2>
-                        <p class="px-3 border-bottom w-75 mx-2"><strong>Technical Properties:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br><br> <strong>Payment Options</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                        <div class="d-flex justify-content-start">
-                            <button type="button" class="btn btn-secondary bg-d35266 mx-2 px-5 mb-2 fs-twenty">$1200</button>
-                            <button type="button" class="btn btn-secondary bg-d35266 mx-2 px-5 mb-2  fs-twenty">Purchase</button>
-                        </div>
+                <div class="d-flex border bg-light w-75 mx-5 my-3 px-2 py-1">
+                    
+                  <div class="d-flex-column justify-content-start mx-2">
+                    <div>
+                      <img src="/images/laptop3.jpg" alt="laptop" class="my-1 border">
                     </div>
+                    <div class="d-flex justify-content-start mx-5 my-0">
+                      <button type="button" class="btn btn-secondary bg-d35266 mx-1 my-1 px-1 mb-2 fs-thirteen">$1200</button>
+                      <button type="button" class="btn btn-secondary bg-d35266 mx-1 my-1 px-1 mb-2  fs-thirteen">Purchase</button>
+                    </div>
+                  </div>
+                  <div class="d-flex-column w-50 mx-1 my-1">
+                      <h2 class="fs-thirteen gotham-bold ml-1 font-weight-bold border-bottom">LG Laptop xx-2</h2>
+                      <p class="px-3 border-bottom fs-thirteen helvetica-light"><strong>Technical Properties:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. <br> <strong>Payment Options</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                  </div>
+                  
+
                 </div>
-                <div class="d-flex border bg-light w-100 my-3">
-                    <img src="/images/laptop3.jpg" alt="">
-                    <div class="d-flex-column">
-                        <h2 class="fs-thirteen w-75 gotham-bold mx-2 py-4 px-5 ml-5 font-weight-bold border-bottom">LG Laptop xx-2-xx-av-2</h2>
-                        <p class="px-3 border-bottom w-75 mx-2"><strong>Technical Properties:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br><br> <strong>Payment Options</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                        <div class="d-flex justify-content-start">
-                            <button type="button" class="btn btn-secondary bg-d35266 mx-2 px-5 mb-2 fs-twenty">$1200</button>
-                            <button type="button" class="btn btn-secondary bg-d35266 mx-2 px-5 mb-2  fs-twenty">Purchase</button>
-                        </div>
+                <div class="d-flex border bg-light w-75 mx-5 my-3 px-2 py-1">
+                    
+                  <div class="d-flex-column justify-content-start mx-2">
+                    <div>
+                      <img src="/images/laptop3.jpg" alt="laptop" class="my-1 border">
                     </div>
+                    <div class="d-flex justify-content-start mx-5 my-0">
+                      <button type="button" class="btn btn-secondary bg-d35266 mx-1 my-1 px-1 mb-2 fs-thirteen">$1200</button>
+                      <button type="button" class="btn btn-secondary bg-d35266 mx-1 my-1 px-1 mb-2  fs-thirteen">Purchase</button>
+                    </div>
+                  </div>
+                  <div class="d-flex-column w-50 mx-1 my-1">
+                      <h2 class="fs-thirteen gotham-bold ml-1 font-weight-bold border-bottom">LG Laptop xx-2</h2>
+                      <p class="px-3 border-bottom fs-thirteen helvetica-light"><strong>Technical Properties:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. <br> <strong>Payment Options</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                  </div>
+                  
+
                 </div>
-                <div class="d-flex border bg-light w-100 my-3">
-                    <img src="/images/laptop3.jpg" alt="">
-                    <div class="d-flex-column">
-                        <h2 class="fs-thirteen w-75 gotham-bold mx-2 py-4 px-5 ml-5 font-weight-bold border-bottom">LG Laptop xx-2-xx-av-2</h2>
-                        <p class="px-3 border-bottom w-75 mx-2"><strong>Technical Properties:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br><br> <strong>Payment Options</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                        <div class="d-flex justify-content-start">
-                            <button type="button" class="btn btn-secondary bg-d35266 mx-2 px-5 mb-2 fs-twenty">$1200</button>
-                            <button type="button" class="btn btn-secondary bg-d35266 mx-2 px-5 mb-2  fs-twenty">Purchase</button>
-                        </div>
+                <div class="d-flex border bg-light w-75 mx-5 my-3 px-2 py-1">
+                    
+                  <div class="d-flex-column justify-content-start mx-2">
+                    <div>
+                      <img src="/images/laptop3.jpg" alt="laptop" class="my-1 border">
                     </div>
+                    <div class="d-flex justify-content-start mx-5 my-0">
+                      <button type="button" class="btn btn-secondary bg-d35266 mx-1 my-1 px-1 mb-2 fs-thirteen">$1200</button>
+                      <button type="button" class="btn btn-secondary bg-d35266 mx-1 my-1 px-1 mb-2  fs-thirteen">Purchase</button>
+                    </div>
+                  </div>
+                  <div class="d-flex-column w-50 mx-1 my-1">
+                      <h2 class="fs-thirteen gotham-bold ml-1 font-weight-bold border-bottom">LG Laptop xx-2</h2>
+                      <p class="px-3 border-bottom fs-thirteen helvetica-light"><strong>Technical Properties:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. <br> <strong>Payment Options</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                  </div>
+                  
+
                 </div>
             </div>
         </div>

@@ -57,6 +57,10 @@
 
 /* Font-sizes */
 
+.fs-eleven {
+    font-size: 11px;
+}
+
 .fs-twelve {
     font-size: 12px;
 }
