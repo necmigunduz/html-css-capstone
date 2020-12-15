@@ -36,6 +36,11 @@ ul > li {
     list-style-type: none;
 }
 
+/* Section heads */
+.section-head {
+    border-bottom: 1px solid gray;
+}
+
 /* Positioning */
 
 .m-left {
@@ -43,7 +48,7 @@ ul > li {
 }
 
 article {
-    height: 400px;
+    height: 300px;
     background: url('/images/article-background.jpg');
     opacity: 1;
 }
@@ -52,8 +57,12 @@ footer {
     height: 200px;
 }
 
-.w-art {
-    width: 20%;
-    margin: 0 10px;
-    padding: 0 10px;
+/* Padding */
+
+.pad-xy {
+    padding: 3% 33%; 
+}
+
+.wid-sm {
+    width: 45%;
 }

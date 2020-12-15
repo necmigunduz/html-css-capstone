@@ -1,9 +1,9 @@
 .carousel-1 {
-    max-width: 70%;
+    max-width: 50%;
 }
 
 .carousel-2 {
-    max-width: 100%;
+    max-width: 1800px;
 }
 
 .carousel-control-prev-icon,
@@ -21,7 +21,7 @@
 .carousel-control-next-icon:after {
     content: '>';
     font-size: 35px;
-    color: gray;
+    color: gray; 
 }
 
 .carousel-control-prev-icon:after {
@@ -34,4 +34,36 @@
     margin: auto;
     width: 40%;
     height: auto;
+}
+
+.left {
+    left: -150px;
+}
+
+.right {
+    right: -150px;
+}
+
+.left-art {
+    left: 1px;
+}
+
+.right-art {
+    right:1px;
+}
+
+.w-art {
+    width: 300px;
+    height: 250px;
+    margin: 0 3px;
+    padding: 0 3px;
+}
+
+.w-art > img {
+    width: 120px;
+    padding: 0;
+}
+
+.c-item {
+    padding: 0 50px;
 }
