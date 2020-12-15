@@ -27,13 +27,11 @@
     cursor: pointer;
 }
 
-ul > li {
-    min-width: 80px;
-}
-
 /* No Bullets */ 
+
 ul > li {
     list-style-type: none;
+    min-width: 80px;
 }
 
 /* Section heads */
