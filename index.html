@@ -28,12 +28,14 @@
             <div class="d-flex py-4 justify-content-around align-items-center w-100 bg-383838 nav-top">
               <div>
                 <img src="/images/logo.jpg" alt="logo" class="logo ml-auto" />
-                <a href="#" class="text-uppercase text-decoration-none text-white gotham-bold px-3" id="brand-name">Zattix</a>
+                <a href="#" class="text-uppercase text-decoration-none text-white gotham-bold fs-45 px-3" id="brand-name">Zattix</a>
               </div>
               <div>
-                <a class="text-d35266 px-3"><i class="fas fa-home text-d35266"></i>HOME</a>
-                <a class="text-888888 px-3 text-uppercase"><i class="fab fa-pied-piper-square"></i>COLLECTIONs</a>
-                <a class="text-888888 px-3"><i class="fas fa-shopping-cart"></i>PURCHASE LIST</a>
+                <a class="text-d35266">
+                  <i class="fas fa-home"></i><a href="/index.html" class="text-d35266 text-decoration-none">HOME</a>
+                </a>
+                <a class="text-888888 px-3 text-uppercase text-decoration-none"><i class="fab fa-pied-piper-square"></i>COLLECTIONs</a>
+                <a class="text-888888 px-3 text-decoration-none"><i class="fas fa-shopping-cart"></i>PURCHASE LIST</a>
               </div>
               <button class="text-uppercase px-1 py-2 bg-d35266 gotham-bold f-w-bolder" id="btn-ads">
                 post an ad
@@ -92,41 +94,50 @@
         </div>
       </div>
     </header>
-    <main class="main">
-      <div class="carousel-container my-auto">
-        <div id="carouselExampleControls" class="carousel carousel-1 mx-auto slide" data-bs-ride="carousel">
+  <main class="main">
+      <div class="carousel-container my-5">
+        <h2 class="fs-eighteen text-d35266 gotham-bold m-left">Hot Ads</h2>
+        <div id="carouselExampleControls1" class="carousel carousel-1 mx-auto slide" data-bs-ride="carousel">
           <div class="carousel-inner">
-            <h2 class="fs-eighteen text-secondary m-left">Hot Ads</h2>
-            <div class="carousel-item d-flex active">
+            <div class="carousel-item">
               <img class="d-block w-50" src="/images/laptop.jpg" alt="First slide">
               <div class="d-flex-column">
-                <h2 class="gotham-bold fs-twenty mt-5 pt-3">Simurg Laptop Small</h2>
+                <h2 class="gotham-bold fs-twenty">Simurg Laptop Small</h2>
                 <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
-                <button type="button" class="btn btn-danger">$800</button>
+                <div class="d-flex">
+                  <button type="button" class="btn btn-danger">$800</button>
+                  <button type="button" class="btn btn-danger mx-1">Purchase</button>
+                </div>
               </div>
             </div>
-            <div class="carousel-item d-flex">
+            <div class="carousel-item active">
               <img class="d-block w-50" src="/images/laptop2.jpg" alt="Second slide">
               <div class="d-flex-column">
-                <h2 class="gotham-bold fs-twenty mt-5 pt-3">Simurg Laptop Small</h2>
+                <h2 class="gotham-bold fs-twenty">Simurg Laptop Small</h2>
                 <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
-                <button type="button" class="btn btn-danger">$800</button>
+                <div class="d-flex">
+                  <button type="button" class="btn btn-danger">$800</button>
+                  <button type="button" class="btn btn-danger mx-1">Purchase</button>
+                </div>
               </div>
             </div>
-            <div class="carousel-item d-flex">
+            <div class="carousel-item">
               <img class="d-block w-50" src="/images/laptop3.jpg" alt="Third slide">
               <div class="d-flex-column">
-                <h2 class="gotham-bold fs-twenty mt-5 pt-3">Simurg Laptop Small</h2>
+                <h2 class="gotham-bold fs-twenty">Simurg Laptop Small</h2>
                 <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
-                <button type="button" class="btn btn-danger">$800</button>
+                <div class="d-flex">
+                  <button type="button" class="btn btn-danger">$800</button>
+                  <button type="button" class="btn btn-danger mx-1">Purchase</button>
+                </div>
               </div>
             </div>
           </div>
-          <a class="carousel-control-prev left" href="#carouselExampleControls" role="button" data-bs-slide="prev">
+          <a class="carousel-control-prev left" href="#carouselExampleControls1" role="button" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
           </a>
-          <a class="carousel-control-next right" href="#carouselExampleControls" role="button" data-bs-slide="next">
+          <a class="carousel-control-next right" href="#carouselExampleControls1" role="button" data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
           </a>
@@ -134,7 +145,7 @@
       </div>
       <article class="container-fluid my-3">  
         <h2 class="fs-sixteen my-auto pt-2 text-888888 section-head ">Electronics <small>(Computers, Tablets, Mobile Phones, Cameras, and Lenses)</small></h2>
-        <div id="carouselExampleInterval" class="carousel carousel-2 slide" data-bs-ride="carousel">
+        <div id="carouselExampleInterval2" class="carousel carousel-2 slide" data-bs-ride="carousel">
           <div class="carousel-inner pt-2">
             <div class="carousel-item active">
               <div class="d-flex mt-1 c-item">
@@ -293,11 +304,11 @@
               </div>
             </div>
           </div>
-          <a class="carousel-control-prev left-art" href="#carouselExampleInterval" role="button" data-bs-slide="prev">
+          <a class="carousel-control-prev left-art" href="#carouselExampleInterval2" role="button" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
           </a>
-          <a class="carousel-control-next right-art" href="#carouselExampleInterval" role="button" data-bs-slide="next">
+          <a class="carousel-control-next right-art" href="#carouselExampleInterval2" role="button" data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
           </a>
@@ -305,7 +316,7 @@
       </article>
       <article class="container-fluid my-3">  
         <h2 class="fs-sixteen my-auto pt-2 text-888888 section-head ">Electronics <small>(Computers, Tablets, Mobile Phones, Cameras, and Lenses)</small></h2>
-        <div id="carouselExampleInterval" class="carousel carousel-2 slide" data-bs-ride="carousel">
+        <div id="carouselExampleInterval3" class="carousel carousel-2 slide" data-bs-ride="carousel">
           <div class="carousel-inner pt-2">
             <div class="carousel-item active">
               <div class="d-flex mt-1 c-item">
@@ -464,11 +475,11 @@
               </div>
             </div>
           </div>
-          <a class="carousel-control-prev left-art" href="#carouselExampleInterval" role="button" data-bs-slide="prev">
+          <a class="carousel-control-prev left-art" href="#carouselExampleInterval3" role="button" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
           </a>
-          <a class="carousel-control-next right-art" href="#carouselExampleInterval" role="button" data-bs-slide="next">
+          <a class="carousel-control-next right-art" href="#carouselExampleInterval3" role="button" data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
           </a>
@@ -476,7 +487,7 @@
       </article>
       <article class="container-fluid my-3">  
         <h2 class="fs-sixteen my-auto pt-2 text-888888 section-head ">Electronics <small>(Computers, Tablets, Mobile Phones, Cameras, and Lenses)</small></h2>
-        <div id="carouselExampleInterval" class="carousel carousel-2 slide" data-bs-ride="carousel">
+        <div id="carouselExampleInterval4" class="carousel carousel-2 slide" data-bs-ride="carousel">
           <div class="carousel-inner pt-2">
             <div class="carousel-item active">
               <div class="d-flex mt-1 c-item">
@@ -635,11 +646,11 @@
               </div>
             </div>
           </div>
-          <a class="carousel-control-prev left-art" href="#carouselExampleInterval" role="button" data-bs-slide="prev">
+          <a class="carousel-control-prev left-art" href="#carouselExampleInterval4" role="button" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
           </a>
-          <a class="carousel-control-next right-art" href="#carouselExampleInterval" role="button" data-bs-slide="next">
+          <a class="carousel-control-next right-art" href="#carouselExampleInterval4" role="button" data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
           </a>
@@ -647,7 +658,7 @@
       </article>
       <article class="container-fluid my-3">  
         <h2 class="fs-sixteen my-auto pt-2 text-888888 section-head ">Electronics <small>(Computers, Tablets, Mobile Phones, Cameras, and Lenses)</small></h2>
-        <div id="carouselExampleInterval" class="carousel carousel-2 slide" data-bs-ride="carousel">
+        <div id="carouselExampleInterval5" class="carousel carousel-2 slide" data-bs-ride="carousel">
           <div class="carousel-inner pt-2">
             <div class="carousel-item active">
               <div class="d-flex mt-1 c-item">
@@ -806,17 +817,16 @@
               </div>
             </div>
           </div>
-          <a class="carousel-control-prev left-art" href="#carouselExampleInterval" role="button" data-bs-slide="prev">
+          <a class="carousel-control-prev left-art" href="#carouselExampleInterval5" role="button" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
           </a>
-          <a class="carousel-control-next right-art" href="#carouselExampleInterval" role="button" data-bs-slide="next">
+          <a class="carousel-control-next right-art" href="#carouselExampleInterval5" role="button" data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
           </a>
         </div>
       </article>
-      
       <footer class="container-fluid">
         <div class="row">
           <div class="row">
@@ -850,6 +860,7 @@
           <section class="info-bottom"></section>
       </footer>
     </main>
+
     <!-- Bootstrap Bundle with Popper -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"

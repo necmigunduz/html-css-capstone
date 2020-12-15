@@ -18,24 +18,48 @@
     <link rel="stylesheet" href="CSS/colors.css" />
     <link rel="stylesheet" href="CSS/fonts.css" />
     <link rel="stylesheet" href="CSS/carousel.css" />
+    <link rel="stylesheet" href="/CSS/results.css">
+    
     <title>Capstone Project</title>
+
   </head>
   <body>
     <header>
       <div class="header w-100 p-0 m-0">
         <div>
           <nav>
-            <div class="d-flex py-4 justify-content-around align-items-center w-100 bg-383838 nav-top">
+            <div
+              class="d-flex py-4 justify-content-around align-items-center w-100 bg-383838 nav-top"
+            >
               <div>
                 <img src="/images/logo.jpg" alt="logo" class="logo ml-auto" />
-                <a href="#" class="text-uppercase text-decoration-none text-white gotham-bold px-3" id="brand-name">Zattix</a>
+                <a
+                  href="#"
+                  class="text-uppercase text-decoration-none text-white gotham-bold fs-45 px-3"
+                  id="brand-name"
+                  >Zattix</a
+                >
               </div>
               <div>
-                <a class="text-d35266 px-3"><i class="fas fa-home text-d35266"></i>HOME</a>
-                <a class="text-888888 px-3 text-uppercase"><i class="fab fa-pied-piper-square"></i>COLLECTIONs</a>
-                <a class="text-888888 px-3"><i class="fas fa-shopping-cart"></i>PURCHASE LIST</a>
+                <a class="text-d35266 px-3"
+                  ><i class="fas fa-home"></i
+                  ><a
+                    href="/index.html"
+                    class="text-d35266 text-decoration-none"
+                    >HOME</a
+                  ></a
+                >
+                <a class="text-888888 px-3 text-uppercase text-decoration-none"
+                  ><i class="fab fa-pied-piper-square"></i>COLLECTIONs</a
+                >
+                <a class="text-888888 px-3 text-decoration-none"
+                  ><i class="fas fa-shopping-cart"></i>PURCHASE LIST</a
+                >
               </div>
-              <button class="text-uppercase px-1 py-2 bg-d35266 gotham-bold f-w-bolder" id="btn-ads">
+              <button
+                class="text-uppercase px-1 py-2 bg-d35266 gotham-bold f-w-bolder"
+                id="btn-ads"
+              >
                 post an ad
               </button>
             </div>
@@ -86,58 +110,225 @@
                   aria-describedby="inputGroup-sizing-default"
                 />
               </div>
-              <button type="button" class="btn bg-dark px-5 btn-lg mx-2 gotham-bold fs-sixteen"><a href="/results.html" class="text-decoration-none text-white">Search</a></button>
+              <button
+                type="button"
+                class="btn bg-dark px-5 btn-lg mx-2 gotham-bold fs-sixteen"
+              >
+                <a href="/results.html" class="text-decoration-none text-white"
+                  >Search</a
+                >
+              </button>
             </form>
           </div>
         </div>
       </div>
     </header>
     <main class="main">
-      
-      <footer class="container-fluid">
-        <div class="row">
-          <div class="row">
-            <section class="col-sm w-50 px-5">
-              <img src="/images/logo-bottom.jpg" alt="logo-bottom" class="pad-xy">
-              <p class="fs-twelve gotham-rounded text-justify px-5 mx-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-            </section>
-            <section class="categories col-sm row pt-3">
-              <h2 class="fs-sixteen gotham-bold border-bottom text-d35266 pb-2">Categories</h2>
-              <ul class="col-sm fs-twelve">
-                <li>Electronics</li>
-                <li>Automotive</li>
-                <li>Clothing</li>
-                <li>Fashion</li>
-                <li>Kids</li>
-                <li>Real Estate</li>
-                <li>Food & Beverages</li>
-              </ul> 
-              <ul class="col-sm fs-twelve">
-                <li>Electronics</li>
-                <li>Automotive</li>
-                <li>Clothing</li>
-                <li>Fashion</li>
-                <li>Kids</li>
-                <li>Real Estate</li>
-                <li>Food & Beverages</li>
-              </ul>
-            </section>
-          </div>
-        </div>
-          <section class="info-bottom"></section>
-      </footer>
-    </main>
-    <!-- Bootstrap Bundle with Popper -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
-      crossorigin="anonymous"
-    ></script>
+        <div class="col-12 row">
+            <div class="accordion-container col-3 bg-383838">
+                <form>
+                    <h2 class="px-4 pt-3 fs-twenty gotham-bold text-d35266">Advanced Search</h2>
+                    <div id="accordion">
+                        <div class="card">
+                        <div class="card-header" id="headingOne">
+                            <h5 class="mb-0">
+                            <button class="btn btn-link text-decoration-none text-888888" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Condition
+                            </button>
+                            </h5>
+                        </div>
+                    
+                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                            <div class="card-body">
+                            <div class="px-5 text-d35266">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                                    <label class="form-check-label" for="inlineCheckbox1">New</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                                    <label class="form-check-label" for="inlineCheckbox2">Used</label>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="card">
+                        <div class="card-header" id="headingTwo">
+                            <h5 class="mb-0">
+                            <button class="btn btn-link collapsed text-decoration-none text-888888" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Product Type
+                            </button>
+                            </h5>
+                        </div>
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                            <div class="card-body">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                                    <label class="form-check-label" for="inlineCheckbox1">Computers</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                                    <label class="form-check-label" for="inlineCheckbox2">Home Aplliances</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                                    <label class="form-check-label" for="inlineCheckbox2">Smart Phones</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                                    <label class="form-check-label" for="inlineCheckbox2">Other</label>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="card">
+                        <div class="card-header" id="headingThree">
+                            <h5 class="mb-0">
+                            <button class="btn btn-link collapsed text-decoration-none text-888888" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Price Range
+                            </button>
+                            </h5>
+                        </div>
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                            <div class="card-body">
+                                <div class="dropdown">
+                                    <button class="btn text-white bg-secondary dropdown-toggle w-75 border" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                      Select Price Range
+                                    </button>
+                                    <div class="dropdown-menu gotham-bold w-75" aria-labelledby="dropdownMenuButton">
+                                      <a class="dropdown-item dropdown-a" href="#">0 - $500</a>
+                                      <a class="dropdown-item dropdown-a" href="#">$501 - $1000</a>
+                                      <a class="dropdown-item dropdown-a" href="#">$1001 - $1500</a>
+                                      <a class="dropdown-item dropdown-a" href="#">$1501 - $2000</a>
+                                      <a class="dropdown-item dropdown-a" href="#">$2001 - $2500</a>
+                                      <a class="dropdown-item dropdown-a" href="#">$2501 - $3000</a>
+                                      <a class="dropdown-item dropdown-a" href="#">$3001 - $3500</a>
+                                      <a class="dropdown-item dropdown-a" href="#">$3501 - $4000</a>
+                                      <a class="dropdown-item dropdown-a" href="#"> > $4001</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
 
-    <!-- Font Awesome Link-->
-    <script
-      src="https://kit.fontawesome.com/6fd18ab1cb.js"
-      crossorigin="anonymous"
-    ></script>
+            <div class="mid-part col-9">
+                <h2 class="gotham-bold fs-twenty text-d35266 my-3 mx-5">Search Results</h2>
+                <div class="d-flex border bg-light w-100 my-3">
+                    <img src="/images/laptop3.jpg" alt="">
+                    <div class="d-flex-column">
+                        <h2 class="fs-thirteen w-75 gotham-bold mx-2 py-4 px-5 ml-5 font-weight-bold border-bottom">LG Laptop xx-2-xx-av-2</h2>
+                        <p class="px-3 border-bottom w-75 mx-2"><strong>Technical Properties:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br><br> <strong>Payment Options</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <div class="d-flex justify-content-start">
+                            <button type="button" class="btn btn-secondary bg-d35266 mx-2 px-5 mb-2 fs-twenty">$1200</button>
+                            <button type="button" class="btn btn-secondary bg-d35266 mx-2 px-5 mb-2  fs-twenty">Purchase</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex border bg-light w-100 my-3">
+                    <img src="/images/laptop3.jpg" alt="">
+                    <div class="d-flex-column">
+                        <h2 class="fs-thirteen w-75 gotham-bold mx-2 py-4 px-5 ml-5 font-weight-bold border-bottom">LG Laptop xx-2-xx-av-2</h2>
+                        <p class="px-3 border-bottom w-75 mx-2"><strong>Technical Properties:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br><br> <strong>Payment Options</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <div class="d-flex justify-content-start">
+                            <button type="button" class="btn btn-secondary bg-d35266 mx-2 px-5 mb-2 fs-twenty">$1200</button>
+                            <button type="button" class="btn btn-secondary bg-d35266 mx-2 px-5 mb-2  fs-twenty">Purchase</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex border bg-light w-100 my-3">
+                    <img src="/images/laptop3.jpg" alt="">
+                    <div class="d-flex-column">
+                        <h2 class="fs-thirteen w-75 gotham-bold mx-2 py-4 px-5 ml-5 font-weight-bold border-bottom">LG Laptop xx-2-xx-av-2</h2>
+                        <p class="px-3 border-bottom w-75 mx-2"><strong>Technical Properties:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br><br> <strong>Payment Options</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <div class="d-flex justify-content-start">
+                            <button type="button" class="btn btn-secondary bg-d35266 mx-2 px-5 mb-2 fs-twenty">$1200</button>
+                            <button type="button" class="btn btn-secondary bg-d35266 mx-2 px-5 mb-2  fs-twenty">Purchase</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex border bg-light w-100 my-3">
+                    <img src="/images/laptop3.jpg" alt="">
+                    <div class="d-flex-column">
+                        <h2 class="fs-thirteen w-75 gotham-bold mx-2 py-4 px-5 ml-5 font-weight-bold border-bottom">LG Laptop xx-2-xx-av-2</h2>
+                        <p class="px-3 border-bottom w-75 mx-2"><strong>Technical Properties:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br><br> <strong>Payment Options</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <div class="d-flex justify-content-start">
+                            <button type="button" class="btn btn-secondary bg-d35266 mx-2 px-5 mb-2 fs-twenty">$1200</button>
+                            <button type="button" class="btn btn-secondary bg-d35266 mx-2 px-5 mb-2  fs-twenty">Purchase</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex border bg-light w-100 my-3">
+                    <img src="/images/laptop3.jpg" alt="">
+                    <div class="d-flex-column">
+                        <h2 class="fs-thirteen w-75 gotham-bold mx-2 py-4 px-5 ml-5 font-weight-bold border-bottom">LG Laptop xx-2-xx-av-2</h2>
+                        <p class="px-3 border-bottom w-75 mx-2"><strong>Technical Properties:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br><br> <strong>Payment Options</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <div class="d-flex justify-content-start">
+                            <button type="button" class="btn btn-secondary bg-d35266 mx-2 px-5 mb-2 fs-twenty">$1200</button>
+                            <button type="button" class="btn btn-secondary bg-d35266 mx-2 px-5 mb-2  fs-twenty">Purchase</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="container-fluid border-top">
+            <div class="row">
+            <div class="row">
+                <section class="col-sm w-50 px-5">
+                <img
+                    src="/images/logo-bottom.jpg"
+                    alt="logo-bottom"
+                    class="pad-xy"
+                />
+                <p class="fs-twelve gotham-rounded text-justify px-5 mx-5">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting
+                    industry. Lorem Ipsum has been the industry's standard dummy
+                    text ever since the 1500s, when an unknown printer took a galley
+                    of type and scrambled it to make a type specimen book.
+                </p>
+                </section>
+                <section class="categories col-sm row pt-3">
+                <h2 class="fs-sixteen gotham-bold border-bottom text-d35266 pb-2">
+                    Categories
+                </h2>
+                <ul class="col-sm fs-twelve">
+                    <li>Electronics</li>
+                    <li>Automotive</li>
+                    <li>Clothing</li>
+                    <li>Fashion</li>
+                    <li>Kids</li>
+                    <li>Real Estate</li>
+                    <li>Food & Beverages</li>
+                </ul>
+                <ul class="col-sm fs-twelve">
+                    <li>Electronics</li>
+                    <li>Automotive</li>
+                    <li>Clothing</li>
+                    <li>Fashion</li>
+                    <li>Kids</li>
+                    <li>Real Estate</li>
+                    <li>Food & Beverages</li>
+                </ul>
+                </section>
+            </div>
+            </div>
+            <section class="info-bottom"></section>
+        </footer>
+    </main>
+    <div class="blinks">
+        <!-- Bootstrap Bundle with Popper -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+        <!-- Font Awesome Link-->
+        <script
+        src="https://kit.fontawesome.com/6fd18ab1cb.js"
+        crossorigin="anonymous"
+        ></script>
+    </div>
   </body>
 </html>
