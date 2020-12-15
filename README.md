@@ -4,7 +4,7 @@
 
 > We re-created the web page of The Next Web 
 
-![screenshot](/home/necmi/Microverse/html-css-capstone/images/screencapture-127-0-0-1-5500-index-html-2020-12-15-23_21_55.png)
+![screenshot](/images/screencapture.png)
 
 This is the capstone project created by using Bootstrap tools, flex, grid, and positioning.
 ## Built With
