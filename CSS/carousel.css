@@ -20,7 +20,7 @@
   color: gray;
 }
 
-.carousel-control-prev-icon:after {
+.carousel-control-prev-icon::after {
   content: "<";
   font-size: 35px;
   color: gray;
