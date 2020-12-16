@@ -1,24 +1,24 @@
 .side-container {
-    width: 500px;
-    background-color: #d3526546;
+  width: 500px;
+  background-color: #d3526546;
 }
 
 .mid-part { background-color: beige; }
 
 .dropdown-a {
-    font-size: 18px;
-    font-weight: 500;
-    font-family: 'Helvetica-bold';
-    text-align: end;
-    border-bottom: 1px solid lightgray;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Helvetica-bold", sans-serif;
+  text-align: end;
+  border-bottom: 1px solid lightgray;
 }
 
 .search-btn {
-    border-radius: 8%;
-    width: 120px;
-    margin-left: 100px;
-    color: white;
-    background-color: #383838;
+  border-radius: 8%;
+  width: 120px;
+  margin-left: 100px;
+  color: white;
+  background-color: #383838;
 }
 
 .border-b { border-bottom: 2px solid gray; }

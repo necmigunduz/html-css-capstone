@@ -3,33 +3,33 @@
 .nav-top { width: 100%; }
 
 .logo {
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
 }
 
 #brand-name {
-    text-decoration: none;
-    font-size: 30px;
-    font-weight: 900;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: 900;
 }
 
 #btn-ads {
-    border: none;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 15px;
-    margin: 4px 2px;
-    cursor: pointer;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 4px 2px;
+  cursor: pointer;
 }
 
 /* No Bullets */
 
 ul > li {
-    list-style-type: none;
-    min-width: 80px;
+  list-style-type: none;
+  min-width: 80px;
 }
 
 /* Section heads */
@@ -40,9 +40,9 @@ ul > li {
 .m-left { margin-left: 25%; }
 
 article {
-    height: 300px;
-    background: url('/images/article-background.jpg');
-    opacity: 1;
+  height: 300px;
+  background: url("/images/article-background.jpg");
+  opacity: 1;
 }
 
 footer { height: 200px; }
@@ -56,15 +56,15 @@ footer { height: 200px; }
 /* Add Image to Top */
 
 .nav-sec::after {
-    content: "";
-    background-image: url(/images/elektronik-footer-banner.png);
-    background-size: 600px auto;
-    background-repeat: no-repeat;
-    position: absolute;
-    top: 18%;
-    right: 0px;
-    bottom: 0px;
-    left: 25%;
-    opacity: 0.17;
-    z-index: 0;
+  content: "";
+  background-image: url(/images/elektronik-footer-banner.png);
+  background-size: 600px auto;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 18%;
+  right: 0;
+  bottom: 0;
+  left: 25%;
+  opacity: 0.17;
+  z-index: 0;
 }

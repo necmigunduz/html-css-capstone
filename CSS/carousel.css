@@ -4,32 +4,32 @@
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-    height: 40px;
-    width: 40px;
-    outline: black;
-    background-size: 100%, 100%;
-    border: 1px solid gray;
-    border-radius: 50%;
-    background-image: none;
-    line-height: 38px;
+  height: 40px;
+  width: 40px;
+  outline: black;
+  background-size: 100%, 100%;
+  border: 1px solid gray;
+  border-radius: 50%;
+  background-image: none;
+  line-height: 38px;
 }
 
-.carousel-control-next-icon:after {
-    content: '>';
-    font-size: 35px;
-    color: gray;
+.carousel-control-next-icon::after {
+  content: ">";
+  font-size: 35px;
+  color: gray;
 }
 
 .carousel-control-prev-icon:after {
-    content: '<';
-    font-size: 35px;
-    color: gray;
+  content: "<";
+  font-size: 35px;
+  color: gray;
 }
 
 .carousel-inner img {
-    margin: auto;
-    width: 40%;
-    height: auto;
+  margin: auto;
+  width: 40%;
+  height: auto;
 }
 
 .left { left: -150px; }
@@ -41,15 +41,15 @@
 .right-art { right: 1px; }
 
 .w-art {
-    width: 300px;
-    height: 250px;
-    margin: 0 3px;
-    padding: 0 3px;
+  width: 300px;
+  height: 250px;
+  margin: 0 3px;
+  padding: 0 3px;
 }
 
 .w-art > img {
-    width: 120px;
-    padding: 0;
+  width: 120px;
+  padding: 0;
 }
 
 .c-item { padding: 0 50px; }
