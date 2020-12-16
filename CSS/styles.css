@@ -64,3 +64,18 @@ footer {
 .wid-sm {
     width: 45%;
 }
+
+/* Add Image to Top */
+
+.nav-sec::after {
+    content: "";
+    background-image: url(/images/elektronik-footer-banner.png);
+    background-size: 400px auto;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 18%;
+    right: 0px;
+    bottom: 0px;
+    left: 35%;
+    opacity: 0.17;
+}
