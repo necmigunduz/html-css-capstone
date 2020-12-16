@@ -26,10 +26,10 @@
   color: gray;
 }
 
-.carousel-inner img {
+.carousel-item img {
   margin: auto;
-  width: 40%;
-  height: auto;
+  width: auto;
+  height: 50%;
 }
 
 .left { left: -150px; }
