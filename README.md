@@ -4,7 +4,7 @@
 
 > We re-created the web page of The Next Web 
 
-![screenshot](/images/screencapture.png)
+![screenshot](/images/screencapture-new.png)
 
 This is the capstone project created by using Bootstrap tools, flex, grid, and positioning.
 ## Built With
@@ -21,12 +21,15 @@ This is the capstone project created by using Bootstrap tools, flex, grid, and p
 
 ## Getting Started
 
-To observe the webpage developed by Mohammad Awad, and develop a similar page.
+To observe the webpage developed by Mohammad Awad, and develop a similar page. 
+To gather all assets.
+To create a similar skeleton.
+To add content and style it. 
+To create search results landing page. 
 
 ### Prerequisites
 
 A machine with a working and up to date web browser.
-To gather assets and content to create the page.
 
 ### Setup
 

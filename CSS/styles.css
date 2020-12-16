@@ -16,13 +16,13 @@
   border: 12px solid #d35266;
 }
 
-#brand-name {
+.brand-name {
   text-decoration: none;
   font-size: 30px;
   font-weight: 900;
 }
 
-#btn-ads {
+.btn-ads {
   border: none;
   color: white;
   text-align: center;
