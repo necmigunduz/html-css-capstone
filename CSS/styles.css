@@ -14,7 +14,6 @@
   height: 60px;
   border-radius: 50%;
   border: 12px solid #d35266;
-  margin: 20px 220px;
 }
 
 #brand-name {
@@ -87,13 +86,19 @@ footer { height: 200px; }
   z-index: 9;
 }
 
-/* Media Query */
-@media only screen and (max-width: 768px) {
- 
-  .c-hide { display: none; }
-  
-  .carousel-img { 
-    width: 100%
-  }
+.categories {
+  width: 200px;
+  margin-left: -300px;
+}
+.categories > h4 {
+  border-bottom: 1px solid black;
+}
 
+.text-justify {
+  text-align: justify;
+}
+
+.info-bottom {
+  margin-left: 80px;
+  width: 50%;
 }

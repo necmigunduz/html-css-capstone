@@ -1,9 +1,11 @@
 .side-container {
-  width: 500px;
+  width: 600px;
   background-color: #d3526546;
 }
 
-.mid-part { background-color: beige; }
+footer::before {
+  border-top: 1px solid black;
+}
 
 .dropdown-a {
   font-size: 18px;
@@ -23,7 +25,21 @@
 
 .border-b { border-bottom: 2px solid gray; }
 
-/* Media Query */
-@media only screen and (max-width: 768px) {
-  
+.side-container { display: none; }
+
+.result-container {
+  margin-left: 80px;
+  font-size: 12px;
+  width: 1000px;
+}
+
+
+
+/* Media Query for Results page */
+
+@media (min-width:768px) {  
+  .side-container {
+      display: flex;
+      flex-direction: column;        
+  }
 }
