@@ -50,7 +50,7 @@ ul > li {
 
 article {
   height: 300px;
-  background: url("/images/article-background.jpg");
+  background-color:rgb(240, 220, 220);
   opacity: 1;
 }
 
@@ -66,14 +66,14 @@ footer { height: 200px; }
 
 .nav-sec::after {
   content: "";
-  background-image: url(/images/elektronik-footer-banner.png);
-  background-size: 600px auto;
+  background-image: url(https://previews.123rf.com/images/stokkete/stokkete1506/stokkete150600088/41135048-business-people-team-social-networking-using-computers-tablets-and-smartphones-top-view-white-backgr.jpg);
+  background-size: 100% 50.4%;
   background-repeat: no-repeat;
   position: absolute;
-  top: 18%;
+  top: 20%;
   right: 0;
   bottom: 0;
-  left: 25%;
+  left: 0;
   opacity: 0.17;
   z-index: 0;
 }
@@ -81,4 +81,19 @@ footer { height: 200px; }
 .result-img {
   height: 215px;
   width: 280px;
+}
+
+.zi-9 {
+  z-index: 9;
+}
+
+/* Media Query */
+@media only screen and (max-width: 768px) {
+ 
+  .c-hide { display: none; }
+  
+  .carousel-img { 
+    width: 100%
+  }
+
 }

@@ -22,3 +22,8 @@
 }
 
 .border-b { border-bottom: 2px solid gray; }
+
+/* Media Query */
+@media only screen and (max-width: 768px) {
+  
+}
