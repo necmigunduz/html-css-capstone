@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# TNW Clone Project
+# Online Electronics Market Project
 
 > We re-created the web page of The Next Web 
 
@@ -21,16 +21,18 @@ This is the capstone project created by using Bootstrap tools, flex, grid, and p
 
 ## Getting Started
 
-To get a local copy up and running follow these simple example steps.
+To observe the webpage developed by Mohammad Awad, and develop a similar page.
 
 ### Prerequisites
 
 A machine with a working and up to date web browser.
+To gather assets and content to create the page.
 
 ### Setup
 
 - Clone the repository to your folder of choice using Git (or just download all the files)
 - Open the index.html file (in the root folder) and the website should show up.
+- Open results.html file (in the root folder) and the search results landing page should show up.
 
 ## Authors
 

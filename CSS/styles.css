@@ -102,3 +102,15 @@ footer { height: 200px; }
   margin-left: 80px;
   width: 50%;
 }
+
+.link {
+  cursor: pointer;
+}
+
+.link:hover {
+  color: #888;
+}
+
+.footer {
+  font-weight: bold;
+}
