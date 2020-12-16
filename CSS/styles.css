@@ -8,7 +8,7 @@
     width: 60px;
     height: 60px;
     border-radius: 50%;
-}   
+}
 
 #brand-name {
     text-decoration: none;
@@ -27,9 +27,9 @@
     cursor: pointer;
 }
 
-/* No Bullets */ 
+/* No Bullets */
 
-ul > li {
+ul>li {
     list-style-type: none;
     min-width: 80px;
 }
@@ -58,7 +58,7 @@ footer {
 /* Padding */
 
 .pad-xy {
-    padding: 3% 33%; 
+    padding: 3% 33%;
 }
 
 .wid-sm {
@@ -70,12 +70,13 @@ footer {
 .nav-sec::after {
     content: "";
     background-image: url(/images/elektronik-footer-banner.png);
-    background-size: 400px auto;
+    background-size: 600px auto;
     background-repeat: no-repeat;
     position: absolute;
     top: 18%;
     right: 0px;
     bottom: 0px;
-    left: 35%;
+    left: 25%;
     opacity: 0.17;
+    z-index: 0;
 }

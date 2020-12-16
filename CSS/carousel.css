@@ -21,7 +21,7 @@
 .carousel-control-next-icon:after {
     content: '>';
     font-size: 35px;
-    color: gray; 
+    color: gray;
 }
 
 .carousel-control-prev-icon:after {
@@ -49,7 +49,7 @@
 }
 
 .right-art {
-    right:1px;
+    right: 1px;
 }
 
 .w-art {
@@ -59,7 +59,7 @@
     padding: 0 3px;
 }
 
-.w-art > img {
+.w-art>img {
     width: 120px;
     padding: 0;
 }
