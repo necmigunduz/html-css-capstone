@@ -1,11 +1,10 @@
 .side-container {
+  display: none;
   width: 600px;
   background-color: #d3526546;
 }
 
-footer::before {
-  border-top: 1px solid black;
-}
+footer::before { border-top: 1px solid black; }
 
 .dropdown-a {
   font-size: 18px;
@@ -25,21 +24,17 @@ footer::before {
 
 .border-b { border-bottom: 2px solid gray; }
 
-.side-container { display: none; }
-
 .result-container {
   margin-left: 80px;
   font-size: 12px;
   width: 1000px;
 }
 
-
-
 /* Media Query for Results page */
 
-@media (min-width:768px) {  
+@media (min-width: 768px) {
   .side-container {
-      display: flex;
-      flex-direction: column;        
+    display: flex;
+    flex-direction: column;
   }
 }
