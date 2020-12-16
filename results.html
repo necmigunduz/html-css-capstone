@@ -54,7 +54,7 @@
               </div>
               <button
                 class="text-uppercase px-1 py-2 bg-d35266 gotham-bold f-w-bolder"
-                id="btn-ads"
+                id="btn-ads" type="submit"
               >
                 post an ad
               </button>
@@ -94,8 +94,8 @@
                   type="text"
                   class="form-control"
                   aria-label="Default"
-                  aria-describedby="inputGroup-sizing-default"
                   placeholder="What do you search for?"
+                  style="z-index: 9;"
                 />
               </div>
               <div class="input-group px-0">
@@ -103,7 +103,7 @@
                   type="text"
                   class="form-control"
                   aria-label="Default"
-                  aria-describedby="inputGroup-sizing-default"
+                  style="z-index: 9;"
                 />
               </div>
               <a
@@ -138,9 +138,9 @@
               Condition of Product
             </h2>
             <div class="mx-3 px-5">
-              <input type="checkbox" id="new" name="new" value="New" />
+              <input type="checkbox" id="new1" name="new" value="New" />
               <label for="new">New</label><br />
-              <input type="checkbox" id="used" name="used" value="used" />
+              <input type="checkbox" id="used1" name="used" value="used" />
               <label for="used">Used</label><br />
             </div>
             <h2 class="gothic-bold fs-twenty text-888888 mx-5 mt-5">
@@ -158,7 +158,7 @@
               <input
                 type="text"
                 name="other"
-                id="other"
+                id="other1"
                 placeholder="Enter here"
               />
             </div>
@@ -422,6 +422,7 @@
         <div class="row">
           <div class="row">
             <section class="col-sm w-50 px-5">
+              <h2 class="d-none">Bottom</h2>
               <img
                 src="/images/logo-bottom.jpg"
                 alt="logo-bottom"
