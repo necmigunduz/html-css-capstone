@@ -3,9 +3,7 @@
     background-color: #d3526546;
 }
 
-.mid-part {
-    background-color: beige;
-}
+.mid-part { background-color: beige; }
 
 .dropdown-a {
     font-size: 18px;
@@ -23,6 +21,4 @@
     background-color: #383838;
 }
 
-.border-b {
-    border-bottom: 2px solid gray;
-}
+.border-b { border-bottom: 2px solid gray; }

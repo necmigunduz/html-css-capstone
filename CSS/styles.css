@@ -1,8 +1,6 @@
 /* Navbar */
 
-.nav-top {
-    width: 100%;
-}
+.nav-top { width: 100%; }
 
 .logo {
     width: 60px;
@@ -29,21 +27,17 @@
 
 /* No Bullets */
 
-ul>li {
+ul > li {
     list-style-type: none;
     min-width: 80px;
 }
 
 /* Section heads */
-.section-head {
-    border-bottom: 1px solid gray;
-}
+.section-head { border-bottom: 1px solid gray; }
 
 /* Positioning */
 
-.m-left {
-    margin-left: 25%;
-}
+.m-left { margin-left: 25%; }
 
 article {
     height: 300px;
@@ -51,19 +45,13 @@ article {
     opacity: 1;
 }
 
-footer {
-    height: 200px;
-}
+footer { height: 200px; }
 
 /* Padding */
 
-.pad-xy {
-    padding: 3% 33%;
-}
+.pad-xy { padding: 3% 33%; }
 
-.wid-sm {
-    width: 45%;
-}
+.wid-sm { width: 45%; }
 
 /* Add Image to Top */
 

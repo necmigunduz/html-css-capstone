@@ -31,63 +31,35 @@
 
 /* Easy-to-use classes */
 
-.gotham-bold {
-    font-family: 'Gotham Bold';
-}
+.gotham-bold { font-family: 'Gotham Bold'; }
 
-.gotham-rounded {
-    font-family: 'Gotham Rounded';
-}
+.gotham-rounded { font-family: 'Gotham Rounded'; }
 
-.helvetica-bold {
-    font-family: 'Helvetica Neue Bold';
-}
+.helvetica-bold { font-family: 'Helvetica Neue Bold'; }
 
-.helvetica-medium {
-    font-family: 'Helvetica Neue Medium';
-}
+.helvetica-medium { font-family: 'Helvetica Neue Medium'; }
 
-.helvetica-light {
-    font-family: 'Helvetica Neue Light';
-}
+.helvetica-light { font-family: 'Helvetica Neue Light'; }
 
 /* Font-sizes */
 
-.fs-eleven {
-    font-size: 11px;
-}
+.fs-eleven { font-size: 11px; }
 
-.fs-twelve {
-    font-size: 12px;
-}
+.fs-twelve { font-size: 12px; }
 
-.fs-sixteen {
-    font-size: 16px;
-}
+.fs-sixteen { font-size: 16px; }
 
-.fs-eighteen {
-    font-size: 18px;
-}
+.fs-eighteen { font-size: 18px; }
 
-.fs-twenty {
-    font-size: 20px;
-}
+.fs-twenty { font-size: 20px; }
 
-.fs-thirty {
-    font-size: 30px;
-}
+.fs-thirty { font-size: 30px; }
 
-.fs-45 {
-    font-size: 45px;
-}
+.fs-45 { font-size: 45px; }
 
-.fs-sixty {
-    font-size: 60px;
-}
+.fs-sixty { font-size: 60px; }
 
 
 /* Line Height */
 
-.lh-8 {
-    line-height: 8px;
-}
+.lh-8 { line-height: 8px; }
