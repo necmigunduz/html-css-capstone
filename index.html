@@ -23,29 +23,33 @@
   </head>
   <body>
     <header>
-      <div class="header w-100 p-0 m-0">
-        <div>
-          <nav>
-            <div class="d-flex py-4 justify-content-around align-items-center w-100 bg-383838 nav-top">
-              <div>
+      <div class="header">
+        
+        <div class="container-fluid d-flex py-4 justify-content-around align-items-between bg-383838 nav-top w-100">
+            <nav class="d-flex justify-content-between w-100">            
+              <div class="nav-top-1">
                 <img src="https://media.istockphoto.com/vectors/letter-z-logo-icon-design-vector-sign-vector-id1093576036?b=1&k=6&m=1093576036&s=612x612&w=0&h=nLJUQfxlYM_suEVUBiQ7N7BvQ_L2wTvnL08uxTiJuOo=" alt="logo" class="logo ml-auto" />
-                <a href="#" class="text-uppercase text-decoration-none text-white gotham-bold fs-twenty  my-5 mx-2 px-1 py-2" id="brand-name">Zattix</a>
+                <a href="#" class="text-uppercase text-decoration-none text-white gotham-bold fs-twenty mt-4 brand-name">Zattix</a>
               </div>
-              <div>
-                <a href="/index.html" class="text-d35266 px-2 text-uppercase text-decoration-none link"><i class="fas fa-home px-1"></i>home</a>
-                <a class="text-888888 px-2 text-uppercase text-decoration-none link"><i class="fab fa-pied-piper-square px-1"></i>COLLECTIONs</a>
-                <a class="text-888888 px-2 text-decoration-none link"><i class="fas fa-shopping-cart px-1"></i>PURCHASE LIST</a>
+              <div class="d-flex nav-top-2 d-none d-md-flex d-lg-flex d-xl-flex">
+                <a href="/index.html" class="text-d35266 mx-1 mt-3 text-uppercase text-decoration-none link fs-twelve"><i class="fas fa-home px-1"></i>home</a>
+                
+                <a class="text-888888 mx-1 text-uppercase text-decoration-none link fs-twelve mt-3"></i><i class="fab fa-pied-piper-square px-1"></i>COLLECTIONs</a>
+                
+                <a class="text-888888 mx-1 text-decoration-none link fs-twelve mt-3"><i class="fas fa-shopping-cart px-1"></i>PURCHASE LIST</a>
               </div>
-              <button class="text-uppercase text-light px-1 py-2 bg-d35266 gotham-bold f-w-bolder" type="submit" id="btn-ads">
+              <div class="nav-top-3">
+                <button class="text-uppercase text-light bg-d35266 gotham-bold f-w-bolder btn-ads mx-2 my-2 px-1 py-2" type="submit">
                 post an ad
-              </button>
-            </div>
-          </nav>
+                </button>
+              </div>
+            </nav>
         </div>
+        
         <div
           class="d-flex-column text-center helvetica text-white w-100 h-100 bg-d35266 nav-sec py-5"
         >
-          <div>
+          <div class="nav-sec-1"> 
             <h1
               class="title text-uppercase gotham-bold f-w-bolder top-head fs-sixty"
             >
@@ -53,12 +57,12 @@
             </h1>
             <p>Buying And Selling Couldn't be Simpler than this!</p>
           </div>
-          <div>
-            <form class="d-flex mx-auto w-75 justify-content-evenly" action="./results.html">
-              <div class="btn-group departs">
+          <div class="nav-sec-2">
+            <form class="d-flex-column mx-auto w-75 justify-content-evenly" action="./results.html">
+              <div class="btn-group departs py-1 px-1 mb-2 w-100 border bg-d35266 form-1">
                 <button
                   type="button"
-                  class="btn btn-light dropdown-toggle zi-9"
+                  class="btn btn-light dropdown-toggle zi-9 fs-thirteen"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
@@ -70,7 +74,7 @@
                   <li><a class="dropdown-item text-decoration-none" href="#">Home Appliances</a></li>
                 </ul>
               </div>
-              <div class="input-group px-1">
+              <div class="input-group mb-2 w-100 form-2">
                 <input
                   type="text"
                   class="form-control zi-9"
@@ -78,7 +82,7 @@
                   placeholder="What do you search for?"
                 />
               </div>
-              <div class="input-group px-0">
+              <div class="input-group px-0 w-100 mb-2 form-3">
                 <input
                   type="text"
                   class="form-control zi-9"
@@ -88,7 +92,7 @@
               </div>
               <input
               type="submit"
-              class="btn bg-dark px-5 btn-lg mx-2 gotham-bold fs-sixteen text-white zi-9"
+              class="btn bg-dark btn-lg gotham-bold fs-sixteen text-white zi-9 form-4 w-100"
               id="search-btn"
               value="Search"
               >
