@@ -1,4 +1,5 @@
 /* Navbar */
+body { overflow-x: hidden; }
 
 .nav-top {
   width: 100%;
@@ -174,10 +175,10 @@ article {
   }
 
   .right-art {
-    margin-right: -20px;
+    margin-right: -26px;
   }
 
   .left-art {
-    margin-left: -20px;
+    margin-left: -26px;
   }
 }

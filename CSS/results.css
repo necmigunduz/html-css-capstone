@@ -34,8 +34,9 @@ footer::before { border-top: 1px solid black; }
 }
 
 .result-img {
-  width: 100%;
+  width: 122%;
   height: auto;
+  margin-top: 25px;
 }
 
 .card-info {
