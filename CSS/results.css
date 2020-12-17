@@ -1,6 +1,5 @@
 .side-container {
   display: none;
-  width: 600px;
   background-color: #d3526546;
 }
 
@@ -25,12 +24,14 @@ footer::before { border-top: 1px solid black; }
 .border-b { border-bottom: 2px solid gray; }
 
 .result-container {
-  margin-left: 80px;
   font-size: 12px;
-  width: 1000px;
 }
 
-/* Media Query for Results page */
+.card {
+  border: 1px solid lightgray;
+  width: auto;
+}
+/* Media Query */
 
 @media (min-width: 768px) {
   .side-container {

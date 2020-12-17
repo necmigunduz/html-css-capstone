@@ -55,8 +55,6 @@ article {
   opacity: 1;
 }
 
-footer { height: 200px; }
-
 /* Padding */
 
 .pad-xy { padding: 3% 33%; }
@@ -64,11 +62,6 @@ footer { height: 200px; }
 .wid-sm { width: 45%; }
 
 /* Add Image to Top */
-
-.result-img {
-  height: 215px;
-  width: 280px;
-}
 
 .zi-9 { z-index: 9; }
 
@@ -130,6 +123,28 @@ footer { height: 200px; }
     font-size: 15px;
   }
 
+  .nav-sec {
+    display: flex column;
+  }
+
+  .nav-sec-2 > form {
+    display: flex;
+   
+  }
+
+  .form-2, .form-3 {
+    height: 35px;;
+    margin-top: 4px; 
+    border-radius: 0;
+    padding-right: 5px;
+  }
   
+  .form-4 {
+    height: 100%;
+    width: 250px;
+    margin-top: 2px; 
+    border-radius: 0;
+    padding-left: 10px;
+  }
 }
 
