@@ -1,6 +1,8 @@
 /* Navbar */
 
-.nav-top { width: 100%; }
+.nav-top {
+  width: 100%;
+}
 
 .logo {
   width: 60px;
@@ -43,11 +45,15 @@ ul > li {
 
 /* Section heads */
 
-.section-head { border-bottom: 1px solid gray; }
+.section-head {
+  border-bottom: 1px solid gray;
+}
 
 /* Positioning */
 
-.m-left { margin-left: 25%; }
+.m-left {
+  margin-left: 25%;
+}
 
 article {
   height: 300px;
@@ -57,33 +63,49 @@ article {
 
 /* Padding */
 
-.pad-xy { padding: 3% 33%; }
+.pad-xy {
+  padding: 3% 33%;
+}
 
-.wid-sm { width: 45%; }
+.wid-sm {
+  width: 45%;
+}
 
 /* Add Image to Top */
 
-.zi-9 { z-index: 9; }
+.zi-9 {
+  z-index: 9;
+}
 
 .categories {
   width: 200px;
   margin-left: -300px;
 }
 
-.categories > h4 { border-bottom: 1px solid black; }
+.categories > h4 {
+  border-bottom: 1px solid black;
+}
 
-.text-justify { text-align: justify; }
+.text-justify {
+  text-align: justify;
+}
 
 .info-bottom {
   margin-left: 80px;
   width: 50%;
 }
 
-.link { cursor: pointer; }
+.link {
+  cursor: pointer;
+}
 
-.link:hover { color: #888; }
+.link:hover {
+  color: #888;
+}
 
-.footer { font-weight: bold; }
+.footer {
+  font-weight: bold;
+}
 
 /* Media Query */
 
@@ -93,7 +115,9 @@ article {
     justify-content: flex-start;
   }
 
-  .nav-top-1 { display: flex; }
+  .nav-top-1 {
+    display: flex;
+  }
 
   .logo {
     width: 80px;
@@ -109,21 +133,27 @@ article {
     font-size: 20px;
   }
 
-  .nav-top-2 > a { font-size: 16px; }
+  .nav-top-2 > a {
+    font-size: 16px;
+  }
 
-  .nav-top-3 { margin-top: 10px; }
+  .nav-top-3 {
+    margin-top: 10px;
+  }
 
   .btn-ads {
     width: 120px;
     font-size: 15px;
   }
 
-  .nav-sec { 
+  .nav-sec {
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
   }
 
-  .nav-sec-2 > form { display: flex; }
+  .nav-sec-2 > form {
+    display: flex;
+  }
 
   .form-2,
   .form-3 {
