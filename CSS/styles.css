@@ -69,6 +69,7 @@ article {
   width: 200px;
   margin-left: -300px;
 }
+
 .categories > h4 { border-bottom: 1px solid black; }
 
 .text-justify { text-align: justify; }
@@ -92,9 +93,7 @@ article {
     justify-content: flex-start;
   }
 
-  .nav-top-1 {
-    display: flex;
-  }
+  .nav-top-1 { display: flex; }
 
   .logo {
     width: 80px;
@@ -104,47 +103,38 @@ article {
   .nav-top-2 {
     display: flex;
     width: 100%;
-    margin-top: 1%; 
+    margin-top: 1%;
     margin-left: 5%;
-    justify-content:flex-start;
+    justify-content: flex-start;
     font-size: 20px;
   }
 
-  .nav-top-2 > a {
-    font-size: 16px;
-  }
+  .nav-top-2 > a { font-size: 16px; }
 
-  .nav-top-3 {
-    margin-top: 10px;
-  }
-  
+  .nav-top-3 { margin-top: 10px; }
+
   .btn-ads {
     width: 120px;
     font-size: 15px;
   }
 
-  .nav-sec {
-    display: flex column;
-  }
+  .nav-sec { display: flex column; }
 
-  .nav-sec-2 > form {
-    display: flex;
-   
-  }
+  .nav-sec-2 > form { display: flex;   }
 
-  .form-2, .form-3 {
-    height: 35px;;
-    margin-top: 4px; 
+  .form-2,
+  .form-3 {
+    height: 35px;
+    margin-top: 4px;
     border-radius: 0;
     padding-right: 5px;
   }
-  
+
   .form-4 {
     height: 100%;
     width: 250px;
-    margin-top: 2px; 
+    margin-top: 2px;
     border-radius: 0;
     padding-left: 10px;
   }
 }
-
