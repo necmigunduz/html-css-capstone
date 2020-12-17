@@ -118,9 +118,12 @@ article {
     font-size: 15px;
   }
 
-  .nav-sec { display: flex column; }
+  .nav-sec { 
+    display: flex;
+    flex-direction: column; 
+  }
 
-  .nav-sec-2 > form { display: flex;   }
+  .nav-sec-2 > form { display: flex; }
 
   .form-2,
   .form-3 {
