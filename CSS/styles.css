@@ -107,7 +107,7 @@ article {
   font-weight: bold;
 }
 
-.card { background-color: white;}
+.card { background-color: white; }
 
 /* Media Query */
 
@@ -180,5 +180,4 @@ article {
   .left-art {
     margin-left: -20px;
   }
-  
 }
