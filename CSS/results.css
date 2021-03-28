@@ -1,0 +1,53 @@
+.side-container {
+  display: none;
+  background-color: #e2e0e0;
+  margin-left: 20px;
+}
+
+.result-container {
+  font-size: 12px;
+}
+
+footer::before { border-top: 1px solid black; }
+
+.dropdown-a {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Helvetica-bold", sans-serif;
+  text-align: end;
+  border-bottom: 1px solid lightgray;
+}
+
+.search-btn {
+  border-radius: 8%;
+  width: 120px;
+  margin-left: 100px;
+  color: white;
+  background-color: #383838;
+}
+
+.border-b { border-bottom: 2px solid gray; }
+
+.card {
+  border: 1px solid lightgray;
+  width: 90%;
+}
+
+.result-img {
+  width: 122%;
+  height: auto;
+  margin-top: 25px;
+}
+
+.card-info {
+  max-height: 50%;
+}
+
+/* Media Query */
+
+@media (min-width: 768px) {
+  .side-container {
+    display: flex;
+    flex-direction: column;
+  }
+}

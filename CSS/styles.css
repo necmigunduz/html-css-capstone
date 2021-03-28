@@ -1,0 +1,184 @@
+/* Navbar */
+body { overflow-x: hidden; }
+
+.nav-top {
+  width: 100%;
+}
+
+.logo {
+  width: 60px;
+  height: auto;
+  border-radius: 50%;
+  border: 12px solid #d35266;
+  margin: 0 10px;
+}
+
+.logo-bottom {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 12px solid #d35266;
+}
+
+.brand-name {
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.btn-ads {
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  cursor: pointer;
+  width: 80px;
+}
+
+/* No Bullets */
+
+ul > li {
+  list-style-type: none;
+  min-width: 80px;
+}
+
+/* Section heads */
+
+.section-head {
+  border-bottom: 1px solid gray;
+}
+
+/* Positioning */
+
+.m-left {
+  margin-left: 25%;
+}
+
+article {
+  height: 300px;
+  background-color: #f7f7f7;
+  opacity: 10;
+}
+
+/* Padding */
+
+.pad-xy {
+  padding: 3% 33%;
+}
+
+.wid-sm {
+  width: 45%;
+}
+
+/* Add Image to Top */
+
+.zi-9 {
+  z-index: 9;
+}
+
+.categories {
+  width: 200px;
+  margin-left: -300px;
+}
+
+.categories > h4 {
+  border-bottom: 1px solid black;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.info-bottom {
+  margin-left: 80px;
+  width: 50%;
+}
+
+.link {
+  cursor: pointer;
+}
+
+.link:hover {
+  color: #888;
+}
+
+.footer {
+  font-weight: bold;
+}
+
+.card { background-color: white; }
+
+/* Media Query */
+
+@media (min-width: 768px) {
+  .nav-top > nav {
+    width: 100%;
+    justify-content: flex-start;
+  }
+
+  .nav-top-1 {
+    display: flex;
+  }
+
+  .logo {
+    width: 80px;
+    height: 80px;
+  }
+
+  .nav-top-2 {
+    display: flex;
+    width: 100%;
+    margin-top: 1%;
+    margin-left: 5%;
+    justify-content: flex-start;
+    font-size: 20px;
+  }
+
+  .nav-top-2 > a {
+    font-size: 16px;
+  }
+
+  .nav-top-3 {
+    margin-top: 10px;
+  }
+
+  .btn-ads {
+    width: 120px;
+    font-size: 15px;
+  }
+
+  .nav-sec {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .nav-sec-2 > form {
+    display: flex;
+  }
+
+  .form-2,
+  .form-3 {
+    height: 35px;
+    margin-top: 4px;
+    border-radius: 0;
+    padding-right: 5px;
+  }
+
+  .form-4 {
+    height: 100%;
+    width: 250px;
+    margin-top: 2px;
+    border-radius: 0;
+    padding-left: 10px;
+  }
+
+  .right-art {
+    margin-right: -26px;
+  }
+
+  .left-art {
+    margin-left: -26px;
+  }
+}

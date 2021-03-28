@@ -1,0 +1,64 @@
+/* Fonts */
+@font-face {
+  font-family: "Gotham Rounded";
+  src: url("/fonts/GothamRnd-Light.woff");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Gotham Bold";
+  src: url("/fonts/Gotham-Bold.woff");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Helvetica Neue Bold";
+  src: url("/fonts/HelveticaNeueBlackCondensed.woff");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Helvetica Neue Medium";
+  src: url("/fonts/HelveticaNeueBlackCondensed.woff");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Helvetica Neue Light";
+  src: url("/fonts/HelveticaNeueCyr-Light.woff");
+  font-weight: 400;
+}
+
+/* Easy-to-use classes */
+
+.gotham-bold { font-family: "Gotham Bold", sans-serif; }
+
+.gotham-rounded { font-family: "Gotham Rounded", sans-serif; }
+
+.helvetica-bold { font-family: "Helvetica Neue Bold", sans-serif; }
+
+.helvetica-medium { font-family: "Helvetica Neue Medium", sans-serif; }
+
+.helvetica-light { font-family: "Helvetica Neue Light", sans-serif; }
+
+/* Font-sizes */
+
+.fs-eleven { font-size: 11px; }
+
+.fs-twelve { font-size: 12px; }
+
+.fs-sixteen { font-size: 16px; }
+
+.fs-eighteen { font-size: 18px; }
+
+.fs-twenty { font-size: 20px; }
+
+.fs-thirty { font-size: 30px; }
+
+.fs-45 { font-size: 45px; }
+
+.fs-sixty { font-size: 60px; }
+
+/* Line Height */
+
+.lh-8 { line-height: 8px; }
